@@ -1,4 +1,5 @@
-fly apps create -o personal stdout-stderr # or choose another name 
+```
+fly apps create -o personal stdout-stderr # or choose another name
 fly deploy -a stdout-stderr
 # wait a minute
 fly logs -a stdout-stderr
@@ -17,4 +18,4 @@ Actual:
 2024-03-22T19:30:59Z app[28749d3c02dee8] yul [info]This is stderr, 1711135859.7168012
 
 
-
+```
